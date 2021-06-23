@@ -1,0 +1,242 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="Tawsila.css">
+<script type="text/javascript" src="delivery.js"></script>
+
+</head>
+<body onload="document.getElementById('Open').click()">
+<header>
+<h1 id="Tawsila">Tawsila</h1>
+<nav class="navbar">
+
+<a id="Open" class="tablinks" onclick="Opentab(event,'content1')">Home</a>
+<a class="tablinks" onclick="Opentab(event,'content2')">order now</a>
+<a href="#About">More infos</a>
+
+</header>
+<div id="content1" class="tabcontent">
+<section class="home" id="home"> 
+<div class="content">
+<h3>Best Delivery Service</h3>
+<p>Our entity is most concerned about providing you with your favorite meals from our finest local restaurants.
+Service is avaialable 24/7 all you have to do is pick up the phone and call us What are you waiting for?</p><br>
+<a href="orders.php" target="_blank" class="btn">Order Now</a>
+</div>
+<div class="image">
+<img src="guy.png">
+</div><br><br>
+</section>
+
+<section class="restaurants" id="restaurants">
+<h1 class="heading">Restaurants List</h1>
+<div class="box-container">
+<div class="box">
+<img src="chilis.png">
+<h3>Chilli's</h3>
+<p>Get a taste of the smoking hot food</p>
+<a href="chilis.html" target="_blank" class="btn">See Menu</a>
+</div>
+
+<div class="box">
+<img src="KFC.png">
+<h3>KFC</h3>
+<p>A diversity of crunchy chicken based food</p>
+<a href="KFC.html" target="_blank" class="btn">See Menu</a>
+</div>
+<br><br>
+
+<div class="box">
+<img src="eric.png" height="225" width="225">
+<h3>Eric Kayser</h3>
+<p>A variety of mood changing sweets </p>
+<a href="eric.html" target="_blank" class="btn">See Menu</a>
+</div>
+
+<div class="box">
+<img src="papa.png">
+<h3>Papa Jhon's</h3>
+<p>Tasty pizzas and cheese based plates.</p>
+<a href="papa.html" target="_blank" class="btn">See Menu</a>
+</div>
+
+
+
+</div>
+
+</section>
+
+
+<br><br><br><br><br><br><br>
+<center><table id="About">
+<tr>
+<td id="td1"><div class="titles">about us </div> <br>
+Fastest Delivery Service<br>
+Paired with the finest restaurants<br>
+Service available 24 hours a day<br>
+</td>
+<td id="td2"><div class="titles">contact founders</div><br>
+Manar El Arbi<br>
+Phone: +21621933875<br>
+Email: arbimanar36@gmail.com<br>
+Linkedin: Manar El Arbi<br><br>
+Zaineb Trimeche<br>
+Phone: +21698912751<br>
+Email: Zainebtrimeche@gmail.com<br>
+Linkedin: Zaineb Trimeche<br>
+</td>
+
+<td id="td4"><div class="titles">our centers</div><br>
+Hammamet<br>
+Avenue Habib Bourguiba, <br> 
+Hammamet 8050<br><br>
+Sousse<br>
+Boulevard du 14 Janvier,<br> 
+Sousse 4000<br><br>
+Tunis<br>
+les Berges du Lac,<br> 
+Tunis 1053<br><br>
+</td>
+
+<td id="td3"><div class="titles">newsletter</div><br>
+<input type="text" placeholder="Email Address" class="inputs"><br><br>
+<button class="btn">Subscribe</button>
+ 
+</td>
+
+</tr>
+</table></center></div>
+
+<div class="tabcontent" id="content2">
+<center><h1 id="del">Place Your Order</h1> </center><br>
+<center><table id="orders">
+<tr>
+<td colspan="2"><center><h2>Chili's</h2></center></td>
+<td colspan="2"><center><h2>KFC</h2></center></td>
+<td colspan="2"><center><h2>Eric Kayser</h2></center></td>
+<td colspan="2"><center><h2>Papa Jhon's</h2></center></td>
+
+<tr>
+<td>
+
+  <input type="checkbox" name="ord1">Country Fried Chicken<br><br>
+  <input type="checkbox">Big Mouth Burger<br><br>
+  <input type="checkbox">Original Crispers<br><br>
+  <input type="checkbox">Regular Salad<br><br>
+  <input type="checkbox">Signature Wings<br><br>
+  <input type="checkbox">Tripple Dipper<br><br>
+</td>
+  <td id="quantity">
+   <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+
+  </td>
+<td>
+  <input type="checkbox">Zinger Classic Meal<br><br>
+  <input type="checkbox">Zinger Supreme<br><br>
+  <input type="checkbox">Supreme Xtreme Meal<br><br>
+  <input type="checkbox">Mighty Zinger<br><br>
+  <input type="checkbox">Mighty Zinger Meal<br><br>
+  <input type="checkbox">Spicy Xtreme Meal<br><br>
+</td>
+<td id="quantity">
+   <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  </td>
+<td>
+  <input type="checkbox">Chocolate Cake<br><br>
+  <input type="checkbox">Love Cake<br><br>
+  <input type="checkbox">Strawberry Cake<br><br>
+  <input type="checkbox">Macaron<br><br>
+  <input type="checkbox">Chocolate Bead<br><br>
+  <input type="checkbox">Salty Treats<br><br>
+
+</td>
+  <td  id="quantity">
+   <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  </td>
+ <td>
+  <input type="checkbox">Papadias<br><br>
+  <input type="checkbox">Large Pizza<br><br>
+  <input type="checkbox">Meduim Pizza<br><br>
+  <input type="checkbox">White Castle<br><br>
+  <input type="checkbox">Qdoba Mexican Eats<br><br>
+  <input type="checkbox">Olive Garden<br><br>
+</td>
+  <td id="quantity">
+   <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  <input type="text" size=1px><br><br>
+  </td>
+</tr>
+</table><br><br><br>
+
+
+
+<center><h1 id="del">Delivery Information</h1> </center><br>
+<center>
+<form action= "order.php" method= "post" name="form2">
+<table id="deliver">
+<tr><td>
+Name</td></tr>
+<tr>
+<td><input type="text" class="inputs2" name="name"></td ></tr>
+<tr><td>Last Name</td></tr>
+<tr><td><input type="text" class="inputs2" name="lname"></td></tr>
+<tr><td>Telephone Number</td></tr>
+<tr><td><input type="text" class="inputs2" name="tel"></td></tr>
+<tr><td>Governorate</td></tr>
+<tr><td><input type="text" class="inputs2" name="gov"></td></tr>
+<tr><td>City</td></tr>
+<tr><td><input type="text" class="inputs2" name="city"></td></tr>
+<tr><td>Street</td></tr>
+<tr><td><input type="text" class="inputs2" name="street"></td></tr>
+<tr><td>Payment Method : 
+Credit Card <input type="radio" name="card" value="credit" onclick="show()" id="credit">
+Cash On Site<input type="radio" name="card" value="debit" onclick="show()"></td></tr>
+<tr><td>
+<div id="infos">
+<table>
+
+<tr>
+<td>Credit Card Information<br>
+<table>
+<tr>
+<td>Card Number</td><td><input type="text" class="inputs"></td>
+</tr>
+<tr>
+<td>
+Expiration Date</td><td><input type="text" placeholder="MM/YY" class="inputs"></td>
+</tr>
+<tr>
+<td>
+CVV</td><td><input type="text" placeholder="3 digits" class="inputs"></td>
+</tr>
+</table>
+</table>
+</td></tr>
+<tr>
+<td><input type="submit" value="Order" class="but" id="order"> </td></tr>
+</table></center>
+</form></center>
+</div>
+</div>
+</body>
+
+</html>
